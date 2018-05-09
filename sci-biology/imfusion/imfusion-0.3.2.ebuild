@@ -17,15 +17,15 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="sci-biology/STAR
-	>=dev-python/pandas-0.19.0[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	>=dev-python/pysam-0.9.1[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/pyfaidx[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
-	dev-python/pathlib2[${PYTHON_USEDEP}]
+	sci-biology/pyfaidx[${PYTHON_USEDEP}]
 	>=sci-biology/HTSeq-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/pysam-0.9.1[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
+	dev-python/intervaltree[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
+	dev-python/numexpr[${PYTHON_USEDEP}]
+	dev-python/pathlib2[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
+	dev-python/toolz[${PYTHON_USEDEP}]
 	sci-libs/scipy[${PYTHON_USEDEP}]"
