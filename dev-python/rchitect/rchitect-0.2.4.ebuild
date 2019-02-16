@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Interoperate R with Python"
 HOMEPAGE="https://github.com/randy3k/${PN}"
-SRC_URI="https://github.com/randy3k/${PN}/archive/v${PV}.tar.gz"
+SRC_URI="https://github.com/randy3k/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
