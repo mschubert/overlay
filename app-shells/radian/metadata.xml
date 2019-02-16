@@ -6,6 +6,6 @@
     <name>Michael Schubert</name>
   </maintainer>
   <upstream>
-    <remote-id type="github">randy3k/rtichoke</remote-id>
+    <remote-id type="github">randy3k/radian</remote-id>
   </upstream>
 </pkgmetadata>
