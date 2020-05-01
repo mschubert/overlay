@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/lineedit[$PYTHON_USEDEP]
-	dev-python/rchitect[$PYTHON_USEDEP]
+	>=dev-python/lineedit-0.1.5[$PYTHON_USEDEP]
+	>=dev-python/rchitect-0.3.24[$PYTHON_USEDEP]
 	dev-python/six[$PYTHON_USEDEP]
 	>=dev-lang/R-3.4.0"
