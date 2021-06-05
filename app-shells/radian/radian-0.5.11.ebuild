@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{4,5,6,7,8} )
+PYTHON_COMPAT=( python3_{5,6,7,8,9} )
 
 inherit distutils-r1
 
@@ -17,6 +17,6 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/lineedit-0.1.5[$PYTHON_USEDEP]
-	>=dev-python/rchitect-0.3.29[$PYTHON_USEDEP]
+	>=dev-python/rchitect-0.3.30[$PYTHON_USEDEP]
 	dev-python/six[$PYTHON_USEDEP]
 	>=dev-lang/R-3.4.0"
