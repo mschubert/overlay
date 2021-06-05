@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{4,5,6,7,8} )
+PYTHON_COMPAT=( python3_{5,6,7,8,9} )
 
 inherit distutils-r1
 
@@ -21,6 +21,7 @@ RDEPEND="dev-python/amply[${PYTHON_USEDEP}]
 	dev-python/configargparse[${PYTHON_USEDEP}]
 	dev-python/datrie[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
+	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
@@ -32,3 +33,5 @@ RDEPEND="dev-python/amply[${PYTHON_USEDEP}]
 	dev-python/smart_open[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]"
+#	dev-python/connection_pool[${PYTHON_USEDEP}]
+#	dev-python/stopit[${PYTHON_USEDEP}]
