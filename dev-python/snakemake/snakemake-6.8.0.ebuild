@@ -33,5 +33,7 @@ RDEPEND="dev-python/amply[${PYTHON_USEDEP}]
 	dev-python/ratelimiter[${PYTHON_USEDEP}]
 	dev-python/smart_open[${PYTHON_USEDEP}]
 	dev-python/stopit[${PYTHON_USEDEP}]
+	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]"
