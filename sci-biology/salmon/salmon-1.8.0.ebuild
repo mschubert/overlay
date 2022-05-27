@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=6
+EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 DESCRIPTION="Transcript-level quantification from RNA-seq reads using lightweight alignments"
 HOMEPAGE="https://github.com/COMBINE-lab/salmon"
@@ -15,9 +15,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE=""
 
-PATCHES=( "${FILESDIR}"/${PN}-0.3.2-no-boost-static.patch )
-
 DEPEND="dev-libs/boost:0
+		dev-libs/cereal
 		dev-libs/jemalloc
 		dev-cpp/tbb"
 RDEPEND="${DEPEND}"
+
+src_configure() {
+	local mycmakeargs=(
+#		-DBOOST_INCLUDEDIR="${EPREFIX}/usr/include/boost"
+#		-DBOOST_LIBRARYDIR="${EPREFIX}/usr/lib64"
+		-DFETCH_BOOST=TRUE
+	)
+	cmake_src_configure
+}
