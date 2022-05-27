@@ -1,11 +1,11 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 DESCRIPTION="C library for high-throughput sequencing data formats"
 HOMEPAGE="http://www.htslib.org/"
-SRC_URI="mirror://sourceforge/samtools/${PV}/${P}.tar.bz2"
+SRC_URI="https://github.com/samtools/${PN}/releases/download/${PV}/${P}.tar.bz2"
 
 SLOT="0/2"
 LICENSE="MIT"
