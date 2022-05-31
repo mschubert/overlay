@@ -11,7 +11,7 @@ DESCRIPTION="GDC Data Transfer Tool"
 HOMEPAGE="https://gdc.cancer.gov/access-data/gdc-data-transfer-tool"
 SRC_URI="https://github.com/NCI-GDC/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="Apache 2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
