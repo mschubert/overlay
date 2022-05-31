@@ -8,8 +8,8 @@ PYTHON_COMPAT=( python2_7 python3_{4,5,6,7,8,9,10} )
 inherit distutils-r1
 
 DESCRIPTION="readline library based on prompt_toolkit"
-HOMEPAGE="https://github.com/randy3k/${PN}"
-SRC_URI="https://github.com/randy3k/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/randy3k/lineedit"
+SRC_URI="https://github.com/randy3k/${PN}/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

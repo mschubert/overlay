@@ -5,7 +5,7 @@ EAPI=7
 
 DESCRIPTION="GitHub Issues on the command line. Use your \$EDITOR, not your browser."
 HOMEPAGE="https://github.com/stephencelis/ghi"
-SRC_URI="https://github.com/stephencelis/ghi/archive/${PV}.tar.gz"
+SRC_URI="https://github.com/stephencelis/ghi/archive/${PV}.tar.gz -> ${PN}.gh.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

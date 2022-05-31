@@ -3,11 +3,9 @@
 
 EAPI=8
 
-inherit autotools
-
 DESCRIPTION="Efficient genotyping bi-allelic SNPs on single cells"
 HOMEPAGE="https://cellsnp-lite.readthedocs.io/"
-SRC_URI="https://github.com/single-cell-genetics/${PN}/archive/refs/tags/v${PV}.tar.gz"
+SRC_URI="https://github.com/single-cell-genetics/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

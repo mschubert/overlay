@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="A 21 century R console"
 HOMEPAGE="https://github.com/randy3k/radian"
-SRC_URI="https://github.com/randy3k/radian/archive/v${PV}.tar.gz"
+SRC_URI="https://github.com/randy3k/radian/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
