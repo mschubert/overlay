@@ -4,8 +4,8 @@
 EAPI=7
 
 DESCRIPTION="NGS suite for analysis of mapped reads, summary of exon/intron/gene counts"
-HOMEPAGE="http://bioinf.wehi.edu.au/featureCounts/"
-SRC_URI="http://sourceforge.net/projects/subread/files/"${P}"/"${P}"-source.tar.gz"
+HOMEPAGE="http://subread.sourceforge.net/"
+SRC_URI="https://sourceforge.net/projects/subread/files/"${P}"/"${P}"-source.tar.gz"
 KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-3"
