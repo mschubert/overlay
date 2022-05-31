@@ -28,4 +28,4 @@ RDEPEND="sci-biology/STAR
 	dev-python/pathlib2[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
-	sci-libs/scipy[${PYTHON_USEDEP}]"
+	dev-python/scipy[${PYTHON_USEDEP}]"
