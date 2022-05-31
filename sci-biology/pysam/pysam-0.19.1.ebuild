@@ -15,7 +15,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-RDEPEND="=sci-libs/htslib-1.7*:="
+RDEPEND="sci-libs/htslib"
 DEPEND="${RDEPEND}
 	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
