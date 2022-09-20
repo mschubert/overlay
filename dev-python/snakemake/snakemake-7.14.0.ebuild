@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{5,6,7,8,9,10} )
+PYTHON_COMPAT=( python3_{7..11} )
 
 inherit distutils-r1
 
@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/connection_pool[${PYTHON_USEDEP}]
 	dev-python/datrie[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
@@ -30,6 +30,7 @@ RDEPEND="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ratelimiter[${PYTHON_USEDEP}]
+	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/smart_open[${PYTHON_USEDEP}]
 	dev-python/stopit[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
