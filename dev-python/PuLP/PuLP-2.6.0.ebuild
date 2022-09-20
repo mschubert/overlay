@@ -3,11 +3,11 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6,7,8,9,10} )
+PYTHON_COMPAT=( python3_{4..11} )
 
 inherit distutils-r1
 
-DESCRIPTION="Fast, efficiently stored Trie for Python"
+DESCRIPTION="Linear Programming modeler written in Python"
 HOMEPAGE="https://pypi.python.org/pypi/PuLP/"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
@@ -15,6 +15,5 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/amply"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/pytest[${PYTHON_USEDEP}]"
