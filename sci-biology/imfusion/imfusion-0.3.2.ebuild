@@ -17,7 +17,6 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="sci-biology/pyfaidx[${PYTHON_USEDEP}]
-	sci-biology/HTSeq[${PYTHON_USEDEP}]
 	sci-biology/pysam[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
@@ -28,3 +27,4 @@ RDEPEND="sci-biology/pyfaidx[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"
+# sci-biology/STAR sci-biology/HTSeq[${PYTHON_USEDEP}] causes pkgcheck to fail, not sure why
