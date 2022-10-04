@@ -16,11 +16,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND="sci-biology/STAR
-	sci-biology/pyfaidx[${PYTHON_USEDEP}]
-	>=sci-biology/HTSeq-0.7.2[${PYTHON_USEDEP}]
-	>=sci-biology/pysam-0.9.1[${PYTHON_USEDEP}]
-	>=dev-python/pandas-0.19.0[${PYTHON_USEDEP}]
+RDEPEND="sci-biology/pyfaidx[${PYTHON_USEDEP}]
+	sci-biology/HTSeq[${PYTHON_USEDEP}]
+	sci-biology/pysam[${PYTHON_USEDEP}]
+	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/intervaltree[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
