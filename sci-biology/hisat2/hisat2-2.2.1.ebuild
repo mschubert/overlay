@@ -3,7 +3,9 @@
 
 EAPI=8
 
-inherit cmake
+PYTHON_COMPAT=( python3_{4..11} )
+
+inherit cmake python-single-r1
 
 DESCRIPTION="Graph-based alignment (Hierarchical Graph FM index)"
 HOMEPAGE="https://daehwankimlab.github.io/hisat2/"
@@ -13,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 LICENSE="GPL-3"
 SLOT="0"
 IUSE=""
-REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="dev-lang/perl
 	dev-lang/python"
