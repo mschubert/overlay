@@ -17,4 +17,5 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 DEPEND="dev-libs/isa-l
 	dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND="dev-python/pytest[${PYTHON_USEDEP}]"
+RDEPEND="${DEPEND}
+	dev-python/pytest[${PYTHON_USEDEP}]"
