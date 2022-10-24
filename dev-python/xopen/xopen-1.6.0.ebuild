@@ -16,8 +16,8 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
-DEPEND="dev-python/isal[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/pytest[${PYTHON_USEDEP}]"
+# dev-python/isal[${PYTHON_USEDEP}] only amd64 in sci-libs/isa-l
 
 distutils_enable_tests pytest
