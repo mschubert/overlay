@@ -3,7 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{7..10} )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{7..11} )
 
 inherit distutils-r1
 
@@ -20,3 +21,5 @@ RDEPEND="dev-python/dnaio[${PYTHON_USEDEP}]
 DEPEND="${RDEPEND}
 	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest

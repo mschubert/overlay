@@ -18,5 +18,6 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/dpath[${PYTHON_USEDEP}]
 	dev-python/plac[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest

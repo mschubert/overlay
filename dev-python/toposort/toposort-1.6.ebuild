@@ -1,9 +1,10 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6,7,8,9,10} )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python2_7 python3_{4..11} )
 
 inherit distutils-r1
 
@@ -17,3 +18,5 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/pytest[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest

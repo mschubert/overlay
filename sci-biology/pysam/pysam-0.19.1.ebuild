@@ -1,9 +1,10 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6,7,8,9,10} )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python2_7 python3_{4..11} )
 
 inherit distutils-r1
 
@@ -19,6 +20,8 @@ RDEPEND="sci-libs/htslib"
 DEPEND="${RDEPEND}
 	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest
 
 python_prepare_all() {
 	export HTSLIB_MODE="external"
