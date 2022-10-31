@@ -14,3 +14,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
+
+src_configure() {
+	local mycmakeargs=(
+		-DENABLE_CONDA=ON
+	)
+	cmake_src_configure
+}
