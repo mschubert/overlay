@@ -24,7 +24,6 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 RDEPEND="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/ndg-httpsclient[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -32,5 +31,6 @@ RDEPEND="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/intervaltree[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
+# dev-python/ndg-httpsclient[${PYTHON_USEDEP}]
 
 distutils_enable_tests pytest
