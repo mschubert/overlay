@@ -40,3 +40,5 @@ RDEPEND="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	dev-python/yte[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest
