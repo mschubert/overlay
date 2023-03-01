@@ -6,7 +6,7 @@ EAPI=8
 DESCRIPTION="An ultra-fast all-in-one FASTQ preprocessor"
 HOMEPAGE="https://github.com/OpenGene/fastp"
 SRC_URI="https://github.com/OpenGene/fastp/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 
 LICENSE="MIT"
 SLOT="0"
