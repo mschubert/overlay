@@ -10,7 +10,7 @@
     <name>Python</name>
   </maintainer>
   <upstream>
-    <remote-id type="github">willu47/amply</remote-id>
-    <remote-id type="pypi">amply</remote-id>
+    <remote-id type="github">leshchenko1979/reretry</remote-id>
+    <remote-id type="pypi">reretry</remote-id>
   </upstream>
 </pkgmetadata>
