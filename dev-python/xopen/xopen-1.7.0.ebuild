@@ -6,18 +6,15 @@ EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{8..11} )
 
-inherit distutils-r1
+inherit pypi distutils-r1
 
 DESCRIPTION="Transparently open() compressed files"
 HOMEPAGE="https://pypi.org/project/xopen/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~amd64-linux"
 
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND="dev-python/pytest[${PYTHON_USEDEP}]"
-# dev-python/isal[${PYTHON_USEDEP}] only amd64 in sci-libs/isa-l
+RDEPEND="dev-python/isal[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
