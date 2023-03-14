@@ -13,7 +13,7 @@ HOMEPAGE="https://cutadapt.readthedocs.io/en/stable/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 
 RDEPEND="dev-python/dnaio[${PYTHON_USEDEP}]
 	dev-python/xopen[${PYTHON_USEDEP}]"
