@@ -13,7 +13,7 @@ HOMEPAGE="https://pypi.org/project/dnaio/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~amd64-linux"
 
 RDEPEND="dev-python/xopen[${PYTHON_USEDEP}]"
 BEPEND="dev-python/cython[${PYTHON_USEDEP}]"
