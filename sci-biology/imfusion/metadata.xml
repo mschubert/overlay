@@ -10,6 +10,7 @@
     <name>Michael Schubert</name>
   </maintainer>
   <upstream>
+    <remote-id type="pypi">imfusion</remote-id>
     <remote-id type="github">NKI-CCB/imfusion</remote-id>
   </upstream>
 </pkgmetadata>
