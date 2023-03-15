@@ -6,7 +6,7 @@ EAPI=8
 inherit cmake
 
 DESCRIPTION="Command line parser for C++11"
-HOMEPAGE="cliutils.github.io/CLI11/book/"
+HOMEPAGE="https://cliutils.github.io/CLI11/book/"
 SRC_URI="https://github.com/CLIUtils/CLI11/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
