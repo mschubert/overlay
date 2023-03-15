@@ -7,7 +7,7 @@ inherit cmake
 
 DESCRIPTION="Implementation of std::expected with functional-style extensions"
 HOMEPAGE="https://github.com/TartanLlama/expected"
-SRC_URI="https://github.com/TartanLlama/expected/archive/refs/tags/v${PV}.tar.gz"
+SRC_URI="https://github.com/TartanLlama/expected/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
