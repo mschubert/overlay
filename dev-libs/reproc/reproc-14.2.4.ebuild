@@ -7,7 +7,7 @@ inherit cmake
 
 DESCRIPTION="C/C++ library for starting, stopping and communicating with external programs"
 HOMEPAGE="https://github.com/DaanDeMeyer/reproc"
-SRC_URI="https://github.com/DaanDeMeyer/reproc/archive/refs/tags/v${PV}.tar.gz"
+SRC_URI="https://github.com/DaanDeMeyer/reproc/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
