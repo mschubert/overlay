@@ -11,6 +11,6 @@
   </maintainer>
   <upstream>
     <remote-id type="github">tmbo/questionary</remote-id>
-    <remote-id type="pypi">refgenie/refgenie</remote-id>
+    <remote-id type="pypi">refgenie</remote-id>
   </upstream>
 </pkgmetadata>
