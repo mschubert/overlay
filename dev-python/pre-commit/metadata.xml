@@ -11,6 +11,6 @@
   </maintainer>
   <upstream>
     <remote-id type="github">tmbo/questionary</remote-id>
-    <remote-id type="pypi">pre-commit/pre-commit</remote-id>
+    <remote-id type="pypi">pre-commit</remote-id>
   </upstream>
 </pkgmetadata>
