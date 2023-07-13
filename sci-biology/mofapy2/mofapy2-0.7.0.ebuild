@@ -15,11 +15,11 @@ LICENSE="LGPL"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
-RDEPEND="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+RDEPEND="dev-python/dtw[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/dtw[${PYTHON_USEDEP}]"
+	dev-python/numpy[${PYTHON_USEDEP}]
+	dev-python/pandas[${PYTHON_USEDEP}]
+	dev-python/scipy[${PYTHON_USEDEP}]
+	sci-libs/scikit-learn[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
