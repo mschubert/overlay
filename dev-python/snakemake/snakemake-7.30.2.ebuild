@@ -27,17 +27,16 @@ RDEPEND="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/PuLP[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/ratelimiter[${PYTHON_USEDEP}]
 	dev-python/reretry[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/smart_open[${PYTHON_USEDEP}]
+	dev-python/smart-open[${PYTHON_USEDEP}]
 	dev-python/stopit[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/throttler[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/yte[${PYTHON_USEDEP}]"
+	dev-python/yte[${PYTHON_USEDEP}]
+	sci-mathematics/pulp[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
