@@ -4,7 +4,8 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{5..11} )
+DISTUTILS_EXT=1
+PYTHON_COMPAT=( python3_{6..11} )
 
 inherit distutils-r1
 
@@ -19,4 +20,5 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/cffi[$PYTHON_USEDEP]
 	dev-python/six[${PYTHON_USEDEP}]"
+
 distutils_enable_tests pytest
