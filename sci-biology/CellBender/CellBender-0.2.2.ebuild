@@ -19,6 +19,7 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 RDEPEND="
 	${PYTHON_DEPS}
 	sci-libs/pytorch[${PYTHON_SINGLE_USEDEP}]
+	sci-libs/pyro[${PYTHON_SINGLE_USEDEP}]
 	$(python_gen_cond_dep '
 		dev-python/numpy[${PYTHON_USEDEP}]
 		dev-python/scipy[${PYTHON_USEDEP}]
