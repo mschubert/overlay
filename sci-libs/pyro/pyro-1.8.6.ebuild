@@ -16,6 +16,7 @@ HOMEPAGE="https://pyro.ai/"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+IUSE="+plot"
 
 RDEPEND="
 	${PYTHON_DEPS}
@@ -25,6 +26,11 @@ RDEPEND="
 		dev-python/opt-einsum[${PYTHON_USEDEP}]
 		dev-python/pyro-api[${PYTHON_USEDEP}]
 		dev-python/tqdm[${PYTHON_USEDEP}]
+		plot? (
+			dev-python/graphviz[${PYTHON_USEDEP}]
+			dev-python/matplotlib[${PYTHON_USEDEP}]
+			dev-python/seaborn[${PYTHON_USEDEP}]
+		)
 	')
 "
 DEPEND="${RDEPEND}"
