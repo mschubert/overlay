@@ -18,7 +18,7 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/prompt_toolkit-3.0.15[$PYTHON_USEDEP]
-	>=dev-python/rchitect-0.4.1[$PYTHON_USEDEP]
+	>=dev-python/rchitect-0.4.3[$PYTHON_USEDEP]
 	dev-python/six[$PYTHON_USEDEP]
 	>=dev-lang/R-3.4.0"
 
