@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{6..11} )
+PYTHON_COMPAT=( python3_{8..12} )
 
 inherit pypi distutils-r1
 
@@ -29,6 +29,9 @@ RDEPEND="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/spectra[${PYTHON_USEDEP}]"
+	dev-python/spectra[${PYTHON_USEDEP}]
+	dev-python/importlib-metadata[$PYTHON_USEDEP]
+	dev-python/humanize[$PYTHON_USEDEP]
+	dev-python/pyaml-env[$PYTHON_USEDEP]"
 
 distutils_enable_tests pytest
