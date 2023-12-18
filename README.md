@@ -5,8 +5,8 @@ Gentoo overlay
 
 Gentoo overlay for software that's not quite ready for the main tree
 
-Packages maintained in the `science` overlay
---------------------------------------------
+Packages maintained in the [`science`](https://github.com/gentoo/sci) overlay
+-----------------------------------------------------------------------------
 
 [![python:bx-python](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:bx-python.svg?header=python:bx-python)](https://repology.org/project/python:bx-python/versions)
 [![python:dpath](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:dpath.svg?header=python:dpath)](https://repology.org/project/python:dpath/versions)
