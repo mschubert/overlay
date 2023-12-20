@@ -14,7 +14,7 @@ SRC_URI="https://github.com/broadinstitute/CellBender/archive/refs/tags/v${PV}.t
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64"
 
 RDEPEND="
 	${PYTHON_DEPS}
