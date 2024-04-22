@@ -19,7 +19,6 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="sci-biology/pyfaidx[${PYTHON_USEDEP}]
 	sci-biology/pysam[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/intervaltree[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
