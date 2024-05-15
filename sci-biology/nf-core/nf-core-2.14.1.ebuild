@@ -11,9 +11,6 @@ inherit pypi distutils-r1
 DESCRIPTION="Helper tools for use with nf-core Nextflow pipelines"
 HOMEPAGE="https://pypi.org/project/nf-core/"
 
-SRC_URI="$(pypi_sdist_url --no-normalize)"
-S="${WORKDIR}/${PYPI_PN}-${PV}"
-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
@@ -29,6 +26,7 @@ RDEPEND="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pdiff[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	dev-python/pytest-workflow[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
