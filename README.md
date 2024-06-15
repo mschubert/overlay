@@ -9,6 +9,7 @@ Packages maintained in the [`science`](https://github.com/gentoo/sci) overlay
 -----------------------------------------------------------------------------
 
 [![fastp](https://repology.org/badge/version-for-repo/gentoo_ovl_science/fastp.svg?header=fastp)](https://repology.org/project/fastp/versions)
+[![multiqc](https://repology.org/badge/version-for-repo/gentoo_ovl_science/multiqc.svg?header=multiqc)](https://repology.org/project/multiqc/versions)
 [![python:bx-python](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:bx-python.svg?header=python:bx-python)](https://repology.org/project/python:bx-python/versions)
 [![python:colormath](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:colormath.svg?header=python:colormath)](https://repology.org/project/python:colormath/versions)
 [![python:dpath](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:dpath.svg?header=python:dpath)](https://repology.org/project/python:dpath/versions)
