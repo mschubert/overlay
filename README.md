@@ -25,4 +25,4 @@ Packages maintained in the [`science`](https://github.com/gentoo/sci) overlay
 [![python:yte](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:yte.svg?header=python:yte)](https://repology.org/project/python:yte/versions)
 [![radian](https://repology.org/badge/version-for-repo/gentoo_ovl_science/radian.svg?header=radian)](https://repology.org/project/radian/versions)
 [![rdkit](https://repology.org/badge/version-for-repo/gentoo_ovl_science/rdkit.svg?header=rdkit)](https://repology.org/project/rdkit/versions)
-[![snakemake](https://repology.org/badge/version-for-repo/gentoo_ovl_science/snakemake.svg?header=snakemake)](https://repology.org/project/snakemake/versions)
+[![snakemake](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:snakemake.svg?header=snakemake)](https://repology.org/project/python:snakemake/versions)
