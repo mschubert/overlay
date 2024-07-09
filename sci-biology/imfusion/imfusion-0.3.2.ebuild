@@ -13,7 +13,7 @@ HOMEPAGE="https://github.com/NKI-CCB/imfusion"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~amd64-linux"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="sci-biology/pyfaidx[${PYTHON_USEDEP}]
