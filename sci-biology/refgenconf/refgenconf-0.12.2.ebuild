@@ -1,10 +1,10 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{6..11} )
+PYTHON_COMPAT=( python3_{10..12} )
 
 inherit pypi distutils-r1
 
@@ -22,4 +22,5 @@ RDEPEND="dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/yacman[${PYTHON_USEDEP}]
 	sci-biology/pyfaidx[${PYTHON_USEDEP}]"
 
-distutils_enable_tests pytest
+RESTRICT="test"
+#distutils_enable_tests pytest # no tests collected
