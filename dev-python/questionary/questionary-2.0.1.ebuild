@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=poetry
-PYTHON_COMPAT=( python3_{6..11} )
+PYTHON_COMPAT=( python3_{11..12} )
 
 inherit pypi distutils-r1
 
@@ -17,4 +17,5 @@ KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 RDEPEND="dev-python/prompt-toolkit[${PYTHON_USEDEP}]"
 
-distutils_enable_tests pytest
+RESTRICT="test"
+#distutils_enable_tests pytest # no tests collected
