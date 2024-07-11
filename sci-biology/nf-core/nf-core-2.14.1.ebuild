@@ -13,7 +13,7 @@ HOMEPAGE="https://pypi.org/project/nf-core/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64"
 
 RDEPEND="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/filetype[${PYTHON_USEDEP}]
