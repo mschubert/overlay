@@ -6,18 +6,19 @@ EAPI=8
 DISTUTILS_USE_PEP517=poetry
 PYTHON_COMPAT=( python3_{10..12} )
 
-DOCS_BUILDER="mkdocs"
-DOCS_DEPEND="
-	dev-python/mkdocstrings
-	dev-python/mkdocstrings-python
-	dev-python/mkdocs-material
-	dev-python/mkdocs-exclude
-	dev-python/mkdocs-rss-plugin
-	dev-python/pytz
-"
-DOCS_INITIALIZE_GIT=1
+#DOCS_BUILDER="mkdocs"
+#DOCS_DEPEND="
+#	dev-python/mkdocstrings
+#	dev-python/mkdocstrings-python
+#	dev-python/mkdocs-material
+#	dev-python/mkdocs-exclude
+#	dev-python/mkdocs-rss-plugin
+#	dev-python/pytz
+#"
+#DOCS_INITIALIZE_GIT=1
 
-inherit distutils-r1 docs optfeature
+#inherit distutils-r1 docs optfeature
+inherit distutils-r1 optfeature
 
 DESCRIPTION="Modern Text User Interface framework"
 HOMEPAGE="https://github.com/Textualize/textual https://pypi.org/project/textual/"
@@ -34,8 +35,6 @@ RDEPEND="
 BDEPEND="
 	test? (
 		dev-python/httpx[${PYTHON_USEDEP}]
-		>=dev-python/textual-dev-1.2.0[${PYTHON_USEDEP}]
-		<dev-python/textual-dev-2.0.0[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/griffe[${PYTHON_USEDEP}]
 	)
@@ -53,13 +52,6 @@ EPYTEST_DESELECT=(
 	tests/text_area/test_languages.py
 )
 distutils_enable_tests pytest
-
-python_compile_all() {
-	echo "INHERIT: mkdocs-offline.yml" > "${S}/mkdocs.yml"
-	grep -v "\- \"*[Bb]log" "${S}/mkdocs-nav.yml" >> "${S}/mkdocs.yml"
-	docs_compile
-	rm "${S}/mkdocs.yml"
-}
 
 pkg_postinst() {
 	optfeature "bindings for python" dev-python/tree-sitter
