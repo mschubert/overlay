@@ -8,10 +8,10 @@ Gentoo overlay for software that's not quite ready for the main tree
 Packages maintained in the [`science`](https://github.com/gentoo/sci) overlay
 -----------------------------------------------------------------------------
 
+[![bx-python](https://repology.org/badge/version-for-repo/gentoo_ovl_science/bx-python.svg?header=bx-python)](https://repology.org/project/bx-python/versions)
 [![fastp](https://repology.org/badge/version-for-repo/gentoo_ovl_science/fastp.svg?header=fastp)](https://repology.org/project/fastp/versions)
 [![gffutils](https://repology.org/badge/version-for-repo/gentoo_ovl_science/gffutils.svg?header=gffutils)](https://repology.org/project/gffutils/versions)
 [![multiqc](https://repology.org/badge/version-for-repo/gentoo_ovl_science/multiqc.svg?header=multiqc)](https://repology.org/project/multiqc/versions)
-[![python:bx-python](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:bx-python.svg?header=python:bx-python)](https://repology.org/project/python:bx-python/versions)
 [![python:colormath](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:colormath.svg?header=python:colormath)](https://repology.org/project/python:colormath/versions)
 [![python:dpath](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:dpath.svg?header=python:dpath)](https://repology.org/project/python:dpath/versions)
 [![python:lzstring](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:lzstring.svg?header=python:lzstring)](https://repology.org/project/python:lzstring/versions)
