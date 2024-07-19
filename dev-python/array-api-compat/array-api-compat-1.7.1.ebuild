@@ -15,12 +15,8 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~amd64-linux"
 
-DEPEND="
-	test? (
-		dev-python/jax[${PYTHON_USEDEP}]
-	)
-	dev-python/numpy[${PYTHON_USEDEP}]
-"
+DEPEND="dev-python/numpy[${PYTHON_USEDEP}]"
 
-RESTRICT="test" # relative import error, jax ebuild not avail
+# relative import error, dev-python/jax ebuild not avail
+RESTRICT="test"
 distutils_enable_tests pytest
