@@ -1,11 +1,12 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
+PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{8..11} )
 DISTUTILS_SINGLE_IMPL=1
+
 inherit distutils-r1
 
 DESCRIPTION="Eliminating technical artifacts from scRNA sequencing data"
@@ -27,10 +28,9 @@ RDEPEND="
 		dev-python/tables[${PYTHON_USEDEP}]
 		dev-python/matplotlib[${PYTHON_USEDEP}]
 		dev-python/sphinx[${PYTHON_USEDEP}]
-		sci-libs/anndata[${PYTHON_USEDEP}]
+		dev-python/anndata[${PYTHON_USEDEP}]
 		sci-libs/scikit-learn[${PYTHON_USEDEP}]
 	')
 "
-DEPEND="${RDEPEND}"
 
 distutils_enable_tests pytest
