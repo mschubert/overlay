@@ -24,7 +24,7 @@ Packages maintained in the [`science`](https://github.com/gentoo/sci) overlay
 [![python:py2bit](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:py2bit.svg?header=python:py2bit)](https://repology.org/project/python:py2bit/versions)
 [![python:pyaml-env](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:pyaml-env.svg?header=python:pyaml-env)](https://repology.org/project/python:pyaml-env/versions)
 [![python:pybedtools](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:pybedtools.svg?header=python:pybedtools)](https://repology.org/project/python:pybedtools/versions)
-[![python:pyBigWig](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:pyBigWig.svg?header=python:pyBigWig)](https://repology.org/project/python:pyBigWig/versions)
+[![python:pyBigWig](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:pybigwig.svg?header=python:pyBigWig)](https://repology.org/project/python:pybigwig/versions)
 [![python:pyfaidx](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:pyfaidx.svg?header=python:pyfaidx)](https://repology.org/project/python:pyfaidx/versions)
 [![python:snakemake-interface-common](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:snakemake-interface-common.svg?header=python:snakemake-interface-common)](https://repology.org/project/python:snakemake-interface-common/versions)
 [![python:snakemake-interface-executor-plugins](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:snakemake-interface-executor-plugins.svg?header=python:snakemake-interface-executor-plugins)](https://repology.org/project/python:snakemake-interface-executor-plugins/versions)
