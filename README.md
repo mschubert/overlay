@@ -15,6 +15,8 @@ Packages maintained in the [`science`](https://github.com/gentoo/sci) overlay
 [![gffutils](https://repology.org/badge/version-for-repo/gentoo_ovl_science/gffutils.svg?header=gffutils)](https://repology.org/project/gffutils/versions)
 [![multiqc](https://repology.org/badge/version-for-repo/gentoo_ovl_science/multiqc.svg?header=multiqc)](https://repology.org/project/multiqc/versions)
 [![python:colormath](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:colormath.svg?header=python:colormath)](https://repology.org/project/python:colormath/versions)
+[![python:colormath2](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:colormath2.svg?header=python:colormath2)](https://repology.org/project/python:colormath2/versions)
+[![python:dask](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:dask.svg?header=python:dask)](https://repology.org/project/python:dask/versions)
 [![python:dpath](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:dpath.svg?header=python:dpath)](https://repology.org/project/python:dpath/versions)
 [![python:llvmlite](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:llvmlite.svg?header=python:llvmlite)](https://repology.org/project/python:llvmlite/versions)
 [![python:lzstring](https://repology.org/badge/version-for-repo/gentoo_ovl_science/python:lzstring.svg?header=python:lzstring)](https://repology.org/project/python:lzstring/versions)
